@@ -2,14 +2,14 @@ package com.vignesh.ex_02_Selenium_Basics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class TestSelenium03_WebDriver {
+public class TestSelenium04_Change_Driver {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
-        driver.manage().window().maximize();
-        String URL = driver.getCurrentUrl();
-        System.out.println(URL);
-        //driver.quit();
+        //driver.close();
+        driver = new FirefoxDriver();
+        //driver.close();
     }
 }
