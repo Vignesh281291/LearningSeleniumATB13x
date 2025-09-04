@@ -3,11 +3,10 @@ package com.vignesh.ex_02_Selenium_Basics;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSelenium09_Mini_Project {
+public class TestSelenium09_Mini_Project1_Katalon {
 
     @Description("Verify the text exists on Katalon website")
     @Test
