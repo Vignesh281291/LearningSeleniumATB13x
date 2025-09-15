@@ -14,7 +14,7 @@ import java.util.function.Function;
 
 public class WaitHelpers {
 
-    public static void waitJVMs(int time) {
+    public void waitJVMs(int time) {
         try {
             Thread.sleep(time);
         } catch (InterruptedException e) {
